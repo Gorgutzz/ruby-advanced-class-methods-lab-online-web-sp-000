@@ -40,7 +40,5 @@ class Song
     end
   end
 
-  def sef.alphabetical
-    self.all.sort{|x, y|x.name <=> y.name}
 
 end
