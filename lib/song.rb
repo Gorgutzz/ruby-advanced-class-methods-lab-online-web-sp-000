@@ -40,7 +40,11 @@ class Song
     end
   end
 
-
+  def self.alphabetical
+    self.sort_by do |song|
+      song.name 
+    end
+  end 
 
 
 end
